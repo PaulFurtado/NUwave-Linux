@@ -51,6 +51,7 @@ looks something like this:
     method=auto
 
 Steps this script performs:
+
 1. Temporarily disables Network Manager
    Why: The script performs a lot of operations which NetworkManager
         interferes with. Additionally, it needs to be restarted after
@@ -63,6 +64,7 @@ Steps this script performs:
    Why: Hopping between access points results in disconnects for many
         people.
 4. Re-enables NetworkManager
+
 Note: This script doesn't actually connect to NUwave, it just configures the
       system correctly so you may still need to click NUwave in the network
       list after this script is complete.
