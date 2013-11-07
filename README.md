@@ -18,7 +18,8 @@ connection to NUwave. To do this, ensure these settings are correct:
  - CA Certificate: None
  - Inner Authentication: "MSCHAPv2"
  - Username: Your husky username without @husky.neu.edu
- -  Password: Your husky password
+ - Password: Your husky password
+
 After doing this, verify that /etc/NetworkManager/system-connections/NUwave
 looks something like this:
     [ipv6]
