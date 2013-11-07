@@ -22,6 +22,7 @@ connection to NUwave. To do this, ensure these settings are correct:
 
 After doing this, verify that /etc/NetworkManager/system-connections/NUwave
 looks something like this:
+
     [ipv6]
     method=auto
     ip6-privacy=2
