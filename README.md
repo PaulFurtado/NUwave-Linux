@@ -72,3 +72,14 @@ What this script does
 Note: This script doesn't actually connect to NUwave, it just configures the
       system correctly so you may still need to click NUwave in the network
       list after this script is complete.
+
+How to run
+==========
+
+This script must be run as root. To setup NUwave, use:
+
+    sudo ./nuwave.py nuwave
+
+To simply list nearby wireless networks and access points:
+
+    sudo ./nuwave.py list
