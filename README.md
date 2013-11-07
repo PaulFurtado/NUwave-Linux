@@ -9,6 +9,9 @@ networks. It is intended to work with Python 2, so if you're using Arch
 linux or another distribution which renamed the Python 2 binary to python2,
 please alter the shebang at the beginning of this script appropriately.
 
+
+NetworkManager Configuration
+============================
 Before executing this script, ensure that you have configured NUwave in
 NetworkManger up to the point where it is capable of establishing a
 connection to NUwave. To do this, ensure these settings are correct:
