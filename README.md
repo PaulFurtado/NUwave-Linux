@@ -53,7 +53,8 @@ looks something like this:
     [ipv4]
     method=auto
 
-Steps this script performs:
+What this script does
+=====================
 
 1. Temporarily disables Network Manager
    Why: The script performs a lot of operations which NetworkManager
